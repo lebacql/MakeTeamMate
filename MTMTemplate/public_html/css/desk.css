@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 févr. 2015, 18:39:47
+    Author     : Loic Lebacq
+*/
+
+.createur{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+#img_createur {
+    width: 150px;
+    height: 200px;
+    padding: 0 1.85%;
+    display: inline-block;
+    text-align: center;
+}
+
+.myButtons {
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #dcdcdc;
+    font-weight: bold;
+    font-family: Arial, Verdana, Tahoma;
+    word-spacing: 3px;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.myButtons:hover {
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+.myButtons:active {
+    position:relative;
+    top:1px;
+}
+.myCloseButton {
+    position:absolute;
+    top: 5px;
+    right:5px;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Arial", Sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
